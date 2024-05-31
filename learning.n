@@ -1,0 +1,14 @@
+- GitHub Action (CI/CD)
+- Git Flow / GitHub Flow, Trunk Basked Development
+- Rewriting history: git reflog, git filter-branch, git cherry-pick
+- Performance and Optimization: Shallow clones, Partial clones
+- Undo Changes(working directory- stagging area- local repo- remote repo)
+
+command: 
+- git checkout -- . (undo from unstaging)
+- git reset HEAD . (Undo from staging)
+- git reset --hard HEAD (udo from staging & unstaging)
+- git commit --amend (correcting the commmit message and add the new file)
+- revert (undo a commit)
+- git revert HEAD (undo a latest commmit)
+- git revert <commit id> git push <reverting a pushed commit>
